@@ -10,12 +10,6 @@ struct Game {
     string result;
 }
 
-// GAS COST 1 = 176749
-
-// GAS COST 2 = 96377
-
-// GAS COST 3 = 133765 ????
-
 contract RPS {
     uint256 public gameCount;
     mapping(uint256 => string) public games;
