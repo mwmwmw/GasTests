@@ -82,4 +82,8 @@ contract RPS {
     
     }
 
+    function getGame(uint256 gameId) public view returns (string memory) {
+        return games[gameId];
+    }
+
 }
